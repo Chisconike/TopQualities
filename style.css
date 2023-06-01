@@ -1,0 +1,376 @@
+/* ===================== Defaults ================== */
+* {
+    margin: 0;
+    line-height: 1;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(145, 142, 143, 0.413);
+}
+
+/* ====================== Nav ===================== */
+.black {
+    color: blue;
+}
+
+.border {
+    border: 2px solid green;
+}
+
+.imagode {
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+nav {
+    background-color: rgb(255, 192, 203);
+}
+
+ul.topnav {
+    overflow: hidden;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+/* span {
+    float: right;
+    padding: 15px;
+} */
+
+ul.topnav li a {
+    display: block;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 10px;
+    min-height: 20px;
+    color: red;
+    padding-top: 15px;
+}
+
+ul.topnav li.big a {
+    font-size: 25px;
+    color: rgb(74, 64, 2);
+}
+
+ul.topnav li.click {
+    display: none;
+}
+
+/* ================== Main Section ============== */
+main {
+    background-image: url(https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJvdXRpcXVlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+
+div.intro {
+    padding-top: 200px;
+    color: white;
+    font-size: 20px;
+
+}
+
+div.intro p {
+    font-size: 40px;
+    padding-top: 10px;
+    color: yellow;
+}
+
+div.intro button {
+    width: 200px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: pink;
+    color: red;
+    font-size: 20px;
+}
+
+div.seperate {
+    padding-top: 250px;
+    padding-bottom: 10px;
+    color: rgb(64, 56, 3);
+}
+
+/* ================ div 4 section =============== */
+main div.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+div.row1 {
+    background-image: url("https://images.unsplash.com/photo-1570857502809-08184874388e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ym91dGlxdWV8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 390px;
+    border: 1px solid black;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+div.row1 h2 {
+    padding-top: 320px;
+    width: 100%;
+    color: red;
+}
+
+div.row1 p {
+    color: rgb(0, 0, 0);
+    padding-top: 5px;
+    font-weight: 900;
+}
+
+div.row2 {
+    background-image: url("https://images.unsplash.com/photo-1555529771-122e5d9f2341?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Ym91dGlxdWV8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 390px;
+    border: 1px solid black;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+div.row2 h2 {
+    padding-top: 320px;
+    width: 100%;
+    color: red;
+}
+
+div.row2 p {
+    color: rgb(255, 255, 255);
+    padding-top: 5px;
+}
+
+div.row3 {
+    background-image: url("https://images.unsplash.com/photo-1572611932849-7f0f116fb2f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Ym91dGlxdWV8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 390px;
+    border: 1px solid black;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+div.row3 h2 {
+    padding-top: 320px;
+    width: 100%;
+    color: red;
+}
+
+div.row3 p {
+    color: rgb(255, 255, 255);
+    padding-top: 5px;
+}
+
+div.row4 {
+    background-image: url("https://images.unsplash.com/photo-1595991209266-711c557ac7c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJvdXRpcXVlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 390px;
+    border: 1px solid black;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+div.row4 h2 {
+    padding-top: 320px;
+    width: 100%;
+    color: red;
+}
+
+div.row4 p {
+    color: rgb(0, 0, 0);
+    padding-top: 5px;
+    font-weight: 900;
+}
+
+/* =================== Circle =================== */
+div.circle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+div.seperate2 {
+    padding-top: 10px;
+    color: rgb(64, 56, 3);
+}
+
+.circle img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+div.last {
+    width: 100%;
+    display: block;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+div.last h2 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+div.last p {
+    padding-top: 10px;
+    line-height: 1.5;
+}
+
+/* ===================== Footer ================= */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    padding-top: 30px;
+
+}
+
+footer ul {
+    padding-top: 20px;
+}
+
+footer ul li {
+    padding: 10px;
+}
+
+footer ul hr {
+    width: 150px;
+}
+
+footer ul li.work {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* ================== Media ====================== */
+@media (max-width: 820px) {
+    nav {
+        background-color: white;
+    }
+
+    ul.topnav li:not(:nth-child(2)) {
+        display: none;
+    }
+
+    ul.topnav li {
+        float: right;
+    }
+
+    ul.topnav li.click {
+        display: block;
+        float: left;
+        padding-left: 10px;
+    }
+
+    /* ===================== Main ================== */
+    div.intro h1 {
+        font-size: 30px;
+        padding-top: 0px;
+    }
+
+    div.intro p {
+        font-size: 30px;
+    }
+
+    div.intro button {
+        width: 150px;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    div.seperate {
+        padding-top: 270px;
+    }
+
+    /* ====================== Footer ================ */
+    footer {
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+
+    footer ul {
+        width: 110px;
+        font-size: 15px;
+        padding-top: 20px;
+    }
+
+    footer ul li {
+        padding: 8px;
+    }
+
+    footer ul hr {
+        width: 100px;
+    }
+
+    footer ul li.work {
+        font-size: 12px;
+    }
+
+    /* ================== Java ================== */
+    ul.topnav.responsive li.click {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    ul.topnav.responsive {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul.topnav.responsive li {
+        display: inline;
+        /* float: left; */
+    }
+
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: center;
+        background-color: white;
+    }
+
+    ul.topnav.responsive li.big {
+        display: none;
+    }
+}
